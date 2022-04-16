@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*,*:before,*:after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+:active {outline:none;}
+:focus {outline:none;}
+
+li,a,h2{
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+p{
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+a,li{
+	transition: .2s linear;
+}
+
+a:hover,li:hover{
+	text-shadow: 0px 3px 10px #7F14E0;
+}
+
+html,body{
+	color: azure;
+	box-sizing: border-box;
+	height: 100vh;
+	background: url('../image/background/image2.jpg') no-repeat bottom;
+	overflow: hidden;
+}
+
+.wrapper{
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+
+.container{
+	max-width: 1026px;
+	margin: 0 auto;
+}
+
+.main{
+	padding: 5px 10px;
+	height: 100vh;
+	scroll-behavior: smooth;
+	overflow-x: auto;
+	width: 100%;
+}
+
+/* clock */
+
+.clockpage{
+	text-align: center;
+}
+
+.clockpage span{
+	text-shadow: 0px 1px 10px #7F14E0;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	text-transform: uppercase;
+}
+
+/* nav */
+
+.nav{
+	height: 97vh;
+	margin: 10px;
+	width: 20%;
+	padding: 0px 10px;
+}
+
+.nav h3{
+	padding: 3px;
+	position: relative;
+	margin: 10px 0px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.nav h3:before{
+	position: absolute;
+	content: '';
+	background: #7F14E0;
+	width: 100%;
+	height: 1px;
+	box-shadow: 0px 1px 9px #7F14E0;
+	bottom: 0;
+}
+
+.nav__link{
+	padding: 5px 10px;
+}
+
+.nav__link a{
+	text-transform: uppercase;
+}
+
+/* header */
+
+.header__body{
+	height: 98vh;
+	position: relative;
+	margin: 0px 0px 20px 0px;
+}
+
+.header__top{
+	margin: 3px 0px;
+	padding: 4px 8px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+.linear_bg{
+	border-radius: 10px;
+	background: linear-gradient(210deg, #00198B66, #65198266),
+					linear-gradient(-90deg, #BD2D7F22, #07A3B844);
+	box-shadow: 0px 1px 10px #7F14E0;
+	border: 1px solid #7F14E0;
+}
+
+.header__link{
+	position: relative;
+	text-align: center;
+	width: 8%;
+}
+
+.header__link img{
+	width: 64px;
+}
+
+.header__nav{
+	position: absolute;
+	width: 100%;
+	padding: 10px 0px;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__logo{
+	padding: 5px 36px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.header__top .header__icon{
+	left: 0;
+	top: 0;
+	height: 100%;
+	position: absolute;
+}
+
+/* content-block */
+
+.sect_con{
+	padding: 7px 14px;
+	margin: 20px 0px;
+}
+
+.sect_con p{
+	padding: 7px 14px;
+}
+
+.sect_con h2{
+	position: relative;
+	padding: 2px 0px;
+	margin: 4px 0px;
+}
+
+.sect_con h2:before{
+	position: absolute;
+	content: '';
+	background: #7F14E0;
+	width: 100%;
+	height: 1px;
+	box-shadow: 0px 1px 9px #7F14E0;
+	bottom: 0;
+}
+
+.content__about{
+}
+
+.content__skill{
+
+}
+
+.content__portfolio{
+}
+
+.content__contacts{
+}
+
+.contact{
+	display: flex;
+}
+
+.social__network{
+	cursor: pointer;
+	padding: 0px 15px;
+	margin: 5px 10px;
+}
+
+.social__network i{
+	transition: .2s linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 42px;
+	font-size: 32px;
+}
+.linear_bg .social__network:hover{
+	transition: .2s linear;
+	background: linear-gradient(-90deg, #51C6FC22, #07A3B844),
+	box-shadow: 0px 1px 10px #51C6FC;
+	border: 1px solid #51C6FC;
+	text-shadow: 0px 1px 10px #51C6FC;
+}
+
+.social__network i:hover{
+	transition: .2s linear;
+	text-shadow: 0px 1px 10px #51C6FC;
+}
+
+/* skill */
+
+.skill{
+
+}
+
+.skill__item{
+	display: block;
+	margin: 14px 5px;
+	position: relative;
+	width: 5%;
+}
+
+.skill__item{
+	padding: 15px 50px;
+	display: flex;
+	align-items: center;
+}
+
+.skill__item img{
+	left: 5px;
+	top: 5;
+	position: absolute;
+	width: 40px;
+}
+
+/* footer */
+
+.footer__body{
+	padding: 5px 10px;
+	margin: 10px 0px;
+}
+
+/* search */
+
+.search__block{
+	padding: 4px;
+	display: flex;
+}
+
+.search__input{
+	width: 170px;
+}
+
+.search__btn{
+	cursor: pointer;
+	transition: 1s linear;
+}
+
+.search__btn:active{
+	cursor: pointer;
+}
+
+.search__btn img{
+	padding: 2px;
+	transition: .1s linear;
+	transform: scale(2.0);
+	width: 12px;
+}
+
+.search__btn img:active{
+	border-radius: 50%;
+	transform: scale(1.6);
+	background: #7F14E077;
+	box-shadow: inset 0px 1px 10px #7F14E0;
+}
+
+.search__input,.search__btn{
+	display: flex;
+	align-items: center;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #fff;
+	padding: 0px 3px;
+	font-size: 16px;
+	background: transparent;
+}
